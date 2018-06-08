@@ -2,7 +2,7 @@
 #tr-pdfshrink commandline to shrink pdf files by compressing images & document to 96dpi
 
 temp=${1,,}
-if test ! "${temp##*.}" = "pdf"
+if test ! "${temp##*.}" = "pdf" #test - check file types and compare values
 then
         echo "The file extension must be .pdf"
         exit
