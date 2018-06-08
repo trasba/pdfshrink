@@ -1,4 +1,5 @@
 #!/bin/bash
+#2018-06-08T18:03:00+00:00
 #tr-pdfshrink commandline to shrink pdf files by compressing images & document to 96dpi
 
 temp=${1,,}
